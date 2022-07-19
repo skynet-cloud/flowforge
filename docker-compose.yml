@@ -6,7 +6,7 @@ services:
       - flowforge 
     restart: always
     volumes:
-      - "/var/run/docker.sock:/tmp/docker.sock"
+      #- "/var/run/docker.sock:/tmp/docker.sock:ro"
     ports:
       #- "80:80"
       - "443:443"
